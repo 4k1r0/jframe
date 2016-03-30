@@ -1,0 +1,20 @@
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+    <script src="../js/jframe.js" ></script>
+</head>
+<body>
+    <div id="test"></div>
+<script>
+    $('#test').jframe({
+        url : "http://qualite.santiane.int",
+        data:{
+            ci_salarie_id: 0,
+            list_commerciaux_id: 0,
+            offres_id: [13,456,789],
+            basehref: "http://intranet.santiane.fr"
+        }
+    });
+</script>
+</body>
+</html>
