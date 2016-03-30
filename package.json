@@ -1,9 +1,0 @@
-{
-  "name": "jframe",
-  "description": "Load an iframe with POST data",
-  "version": "1.0.0",
-  "repository": {
-    "type": "git",
-    "url": ""
-  }
-}

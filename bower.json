@@ -1,8 +1,8 @@
 {
-  "name": "jframe",
+  "name": "4k1r0/jframe",
   "version": "1.0.0",
   "main": [
-    "./dist/js/jframe.js",
+    "./js/jframe.js",
   ],
   "dependencies": {
     "jquery": ">= 1.5.0"

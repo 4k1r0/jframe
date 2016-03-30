@@ -1,6 +1,13 @@
 /**
  * Created by matthieu on 29/03/16.
- * Load an iframe with POST data
+ * jQuery plugin to load an iframe with POST data
+ *
+ * Config :
+ *
+ * string   url        where send POST data, usually set in iframe "src" attr
+ * object   iframe     every iframe attr needed can be set here
+ * object   data       POST data to send
+ * callback success    method called when the iframe is loaded
  */
 (function($) {
 
@@ -36,10 +43,11 @@
             basehref: ""
         },
         success: function(){
-            console.log('jframe loaded');
+            //console.log('jframe loaded');
         }
     };
 
+    // Iframe loader
     $.fn.jframe.iframe = function($elem, options){
         // Generate iframe HTML code
         $( '<iframe></iframe>' )
