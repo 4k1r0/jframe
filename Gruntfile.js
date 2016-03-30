@@ -15,7 +15,7 @@ module.exports = function(grunt) {
         uglify: {
             target: {
                 files: {
-                    "dist/js/jframe.min.js": [
+                    "dist/jframe.min.js": [
                         "src/jframe.js",
                     ]
                 }

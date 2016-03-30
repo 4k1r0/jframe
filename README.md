@@ -8,6 +8,10 @@ Can be usefull to load a specific user view into an iframe
 
 Require jQuery >= 1.5.0
 
+## Install
+
+`bower install 4k1r0-jframe`
+
 ## Usage
 
 ```html

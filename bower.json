@@ -1,9 +1,30 @@
 {
-  "name": "4k1r0/jframe",
-  "version": "1.0.0",
+  "name": "4k1r0-jframe",
+  "description": "jQuery plugin to load an iframe with POST data",
   "main": [
-    "./js/jframe.js",
+    "./dist/jframe.min.js"
   ],
+  "moduleType": "globals",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "tests",
+    "Gruntfile.js"
+  ],
+  "keywords": [
+    "jquery",
+    "iframe",
+    "post"
+  ],
+  "authors": [
+    { "name": "4k1r0", "email": "webakiro@gmail.com" }
+  ],
+  "homepage": "https://github.com/4k1r0/jframe",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/4k1r0/jframe.git"
+  },
   "dependencies": {
     "jquery": ">= 1.5.0"
   }

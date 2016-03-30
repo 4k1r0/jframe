@@ -1,16 +1,18 @@
 <html>
 <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
-    <script src="../js/jframe.js" ></script>
+    <script src="../dist/jframe.min.js" ></script>
 </head>
 <body>
     <div id="test"></div>
 <script>
-    $('#test').jframe({
-        url : "http://example.com",
+    $('#test').jframe({                             url : "http://example.com",
         data:{
             user_id: 1234,
             articles_id: [13,456,789],
+        },
+        success: function(){
+            console.log('jframe loaded');
         }
     });
 </script>
