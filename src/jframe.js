@@ -56,7 +56,8 @@
         var $form = $('<form></form>')
             .attr('action', options.url)
             .attr('target', options.iframe.name)
-            .attr('method', options.method);
+            .attr('method', options.method)
+            .appendTo($elem);
 
         // Add an hidden input for each data we want to send
         for (var datakey in options.data) {
